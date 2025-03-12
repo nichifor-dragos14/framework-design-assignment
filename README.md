@@ -27,7 +27,7 @@ This project is a **.NET Core Web API** extension that provides **request loggin
 
 ```bash
  git clone https://github.com/nichifor-dragos14/framework-design-assignment.git
- cd dotnet-request-limiter
+ cd dotnet-request-limiter-and-logger
 ```
 
 ### **2️⃣ Install Dependencies**
