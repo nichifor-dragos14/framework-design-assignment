@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8xI7tnpOx70DKx7mrK5hNu0iEVI/f1d1rYZTekiyxMA=",
+  "Source": "dotnet-request-limiter-and-logger",
+  "BasePath": "_content/dotnet-request-limiter-and-logger",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

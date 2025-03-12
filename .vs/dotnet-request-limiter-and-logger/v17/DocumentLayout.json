@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|c:\\users\\drago\\desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|solutionrelative:dotnet-request-limiter-and-logger\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|c:\\users\\drago\\desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\middleware\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|solutionrelative:dotnet-request-limiter-and-logger\\middleware\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|c:\\users\\drago\\desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|solutionrelative:dotnet-request-limiter-and-logger\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|c:\\users\\drago\\desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\domain\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|solutionrelative:dotnet-request-limiter-and-logger\\domain\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|c:\\users\\drago\\desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|solutionrelative:dotnet-request-limiter-and-logger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|c:\\users\\drago\\desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|solutionrelative:dotnet-request-limiter-and-logger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|c:\\users\\drago\\desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6D533E1-E94A-4F14-85C1-E64B22C850E3}|dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj|solutionrelative:dotnet-request-limiter-and-logger\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RateLimitingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Middleware\\RateLimitingMiddleware.cs",
+              "RelativeDocumentMoniker": "dotnet-request-limiter-and-logger\\Middleware\\RateLimitingMiddleware.cs",
+              "ToolTip": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Middleware\\RateLimitingMiddleware.cs",
+              "RelativeToolTip": "dotnet-request-limiter-and-logger\\Middleware\\RateLimitingMiddleware.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:38:50.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Middleware\\LoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "dotnet-request-limiter-and-logger\\Middleware\\LoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Middleware\\LoggingMiddleware.cs",
+              "RelativeToolTip": "dotnet-request-limiter-and-logger\\Middleware\\LoggingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:33:09.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "dotnet-request-limiter-and-logger\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "dotnet-request-limiter-and-logger\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:28:23.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Domain\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "dotnet-request-limiter-and-logger\\Domain\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Domain\\WeatherForecast.cs",
+              "RelativeToolTip": "dotnet-request-limiter-and-logger\\Domain\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:27:42.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\appsettings.json",
+              "RelativeDocumentMoniker": "dotnet-request-limiter-and-logger\\appsettings.json",
+              "ToolTip": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\appsettings.json",
+              "RelativeToolTip": "dotnet-request-limiter-and-logger\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T09:27:32.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "dotnet-request-limiter-and-logger\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\appsettings.Development.json",
+              "RelativeToolTip": "dotnet-request-limiter-and-logger\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T09:27:31.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Program.cs",
+              "RelativeDocumentMoniker": "dotnet-request-limiter-and-logger\\Program.cs",
+              "ToolTip": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\Program.cs",
+              "RelativeToolTip": "dotnet-request-limiter-and-logger\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:27:23.982Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

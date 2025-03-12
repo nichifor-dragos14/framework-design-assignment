@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\dotnet-request-limiter-and-logger.props" />
+</Project>
