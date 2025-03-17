@@ -9,7 +9,7 @@ public class RateLimitingMiddleware
     private readonly int _requestLimit;
     private readonly int _timeWindowSeconds;
 
-    private static readonly ConcurrentDictionary<string, List<DateTime>> _requestLog = new();
+    private static readonly ConcurrentDictionary<string, ConcurrentQueue<DateTime>> _requestLog = new();
 
     public RateLimitingMiddleware(
         RequestDelegate next,
@@ -29,28 +29,40 @@ public class RateLimitingMiddleware
     public async Task Invoke(HttpContext context)
     {
         var ipAddress = context.Connection.RemoteIpAddress?.ToString();
-        var now = DateTime.UtcNow;
 
-        if (ipAddress != null)
+        if (ipAddress == null)
         {
-            _requestLog.AddOrUpdate(ipAddress, new List<DateTime> { now }, (key, list) =>
-            {
-                list.Add(now);
-                list.RemoveAll(time => (now - time).TotalSeconds > _timeWindowSeconds);
+            await _next(context);
 
-                return list;
-            });
-
-            if (_requestLog[ipAddress].Count > _requestLimit)
-            {
-                _logger.LogError($"[RateLimit] IP {ipAddress} blocked. Too many requests.");
-                context.Response.StatusCode = StatusCodes.Status429TooManyRequests;
-
-                await context.Response.WriteAsync("Too many requests. Try again later.");
-
-                return;
-            }
+            return;
         }
+
+        if (_timeWindowSeconds < 1 || _requestLimit < 1)
+        {
+            await _next(context);
+
+            return;
+        }
+
+        var now = DateTime.UtcNow;
+        var requests = _requestLog.GetOrAdd(ipAddress, _ => new ConcurrentQueue<DateTime>());
+
+        while (requests.TryPeek(out var oldest) && (now - oldest).TotalSeconds > _timeWindowSeconds)
+        {
+            requests.TryDequeue(out _);
+        }
+
+        if (requests.Count >= _requestLimit)
+        {
+            _logger.LogError($"[RateLimit] IP {ipAddress} blocked. Too many requests.");
+            context.Response.StatusCode = StatusCodes.Status429TooManyRequests;
+
+            await context.Response.WriteAsync("Too many requests. Try again later.");
+
+            return;
+        }
+
+        requests.Enqueue(now);
 
         await _next(context);
     }

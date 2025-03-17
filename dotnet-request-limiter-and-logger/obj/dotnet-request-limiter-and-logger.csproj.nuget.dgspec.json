@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj": {}
+    "C:\\Users\\drago\\Desktop\\master\\sem2\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj": {
+    "C:\\Users\\drago\\Desktop\\master\\sem2\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj",
+        "projectUniqueName": "C:\\Users\\drago\\Desktop\\master\\sem2\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj",
         "projectName": "dotnet-request-limiter-and-logger",
-        "projectPath": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj",
+        "projectPath": "C:\\Users\\drago\\Desktop\\master\\sem2\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger.csproj",
         "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drago\\Desktop\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\obj\\",
+        "outputPath": "C:\\Users\\drago\\Desktop\\master\\sem2\\cadre de aplicatie\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\dotnet-request-limiter-and-logger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",

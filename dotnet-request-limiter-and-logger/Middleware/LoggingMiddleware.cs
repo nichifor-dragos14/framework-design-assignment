@@ -18,6 +18,7 @@ public class LoggingMiddleware
 
     public async Task Invoke(HttpContext context)
     {
+        var now = DateTime.UtcNow;
         var stopwatch = Stopwatch.StartNew();
 
         var request = context.Request;
@@ -32,6 +33,6 @@ public class LoggingMiddleware
         var responseStatus = context.Response.StatusCode;
         var elapsedTime = stopwatch.ElapsedMilliseconds;
 
-        _logger.LogInformation($"[{DateTime.UtcNow}] {method} {path} from {ipAddress} -> status {responseStatus} in ({elapsedTime}ms)");
+        _logger.LogInformation($"[{now}] {method} {path} from {ipAddress} -> status {responseStatus} in ({elapsedTime}ms)");
     }
 }

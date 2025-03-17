@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-request-limiter-and-logger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+460570ec29fe43c306eb13a11dfd798235fb578c")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-request-limiter-and-logger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-request-limiter-and-logger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
