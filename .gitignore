@@ -1,1 +1,3 @@
 .vs/
+.dotnet-request-limiter-and-logger/obj/
+.dotnet-request-limiter-and-logger/bin/
