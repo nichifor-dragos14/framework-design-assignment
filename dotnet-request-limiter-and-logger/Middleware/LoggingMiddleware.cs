@@ -31,8 +31,20 @@ public class LoggingMiddleware
         stopwatch.Stop();
 
         var responseStatus = context.Response.StatusCode;
+        var responseStatusHeader = context.Response.Headers.FirstOrDefault();
         var elapsedTime = stopwatch.ElapsedMilliseconds;
 
-        _logger.LogInformation($"[{now}] {method} {path} from {ipAddress} -> status {responseStatus} in ({elapsedTime}ms)");
+        switch(context.Response.StatusCode)
+        {
+            case StatusCodes.Status422UnprocessableEntity:
+                _logger.LogError($"[RateLimit] Request was blocked blocked. No IP address.");
+                break;
+            case StatusCodes.Status429TooManyRequests:
+                _logger.LogError($"[RateLimit] IP {ipAddress} blocked. Too many requests.");
+                break;
+            default:
+                _logger.LogInformation($"[{now}] {method} {path} from {ipAddress} -> status {responseStatus} in ({elapsedTime}ms)");
+                break;
+        }
     }
 }

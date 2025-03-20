@@ -32,7 +32,8 @@ public class RateLimitingMiddleware
 
         if (ipAddress == null)
         {
-            await _next(context);
+            context.Response.StatusCode = StatusCodes.Status422UnprocessableEntity;
+            await context.Response.WriteAsync("No IP address could be found.");
 
             return;
         }
@@ -54,9 +55,7 @@ public class RateLimitingMiddleware
 
         if (requests.Count >= _requestLimit)
         {
-            _logger.LogError($"[RateLimit] IP {ipAddress} blocked. Too many requests.");
             context.Response.StatusCode = StatusCodes.Status429TooManyRequests;
-
             await context.Response.WriteAsync("Too many requests. Try again later.");
 
             return;

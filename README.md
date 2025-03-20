@@ -7,7 +7,7 @@ This project is a **.NET Core Web API** extension that provides **request loggin
 ## **Features**
 
 - ✅ **Request Logging**: Logs HTTP requests with details (method, IP, duration, status code).
-- ✅ **Rate Limiting**: Blocks requests exceeding a configured threshold within a time window.
+- ✅ **Rate Limiting**: Blocks requests exceeding a configured threshold within a time window and requests that do not contain an IP address.
 - ✅ **Configuration via `appsettings.json`**: Allows customizing limits and logging levels.
 - ✅ **Swagger Integration**: API testing via Swagger UI.
 
@@ -72,13 +72,13 @@ Modify `appsettings.json` to adjust rate limiting settings:
 ### **📝 Logging Middleware**
 
 - 📥 Captures and logs incoming request details, such as the HTTP method, path, IP address, response status, and duration.
-- 🚨 If a request is blocked due to exceeding the rate limit, it logs a warning indicating the blocked IP.
+- 🚨 If a request is blocked due to exceeding the rate limit, it logs an error indicating the blocked IP. An error is logged when the incoming IP address cannot be identified as well.
 
 ### **🚦 Rate Limiting Middleware**
 
 - 🛡 Monitors and restricts the number of requests per IP address based on configuration settings.
 - 📊 Maintains a record of recent requests per IP and blocks further requests if the limit is exceeded within the specified time frame.
-- 🚧 Returns an **HTTP 429 (Too Many Requests)** status when a request is blocked, along with a message indicating the rate limit breach.
+- 🚧 Returns an **HTTP 429 (Too Many Requests)** status when a request is blocked, along with a message indicating the rate limit breach. Returns an **HTTP 422 (Unprocessable Entity)** status when a request is blocked due to not identifying the incoming IP address.
 
 ---
 
@@ -102,6 +102,10 @@ If you exceed the limit, you'll receive:
 [RateLimit] IP ::1 blocked. Too many requests.
 ```
 
+If the IP address could not be identified, you'll receive:
+```bash
+[RateLimit] Request was blocked blocked. No IP address.
+```
 ---
 
 ## **Conclusion**
